@@ -2,46 +2,80 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : [FikiAnto]
+- NIM   : [240202899]
+- Kelas : [3IKRB]
 
 ---
 
 ## Tujuan
-(Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
-
----
+Mahasiswa mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.
+Mahasiswa mampu membandingkan kelebihan dan keterbatasan tiap paradigma.
+Mahasiswa mampu memberikan contoh program sederhana untuk masing-masing paradigma.
+Mahasiswa aktif dalam diskusi kelas (bertanya, menjawab, memberi opini).
 
 ## Dasar Teori
-(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+1.Prosedural: program dibangun sebagai rangkaian perintah (fungsi/prosedur).
+2.OOP (Object-Oriented Programming): program dibangun dari objek yang memiliki data (atribut) dan perilaku (method).
+3.Fungsional: program dipandang sebagai pemetaan fungsi matematika, lebih menekankan ekspresi dan transformasi data.
 
 ---
 
 ## Langkah Praktikum
-(Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
-2. File/kode yang dibuat.  
-3. Commit message yang digunakan.)
-
+1.Menginstall JDK versi terbaru dan cek instalasinya menggunakan perintah java -version
+2.Membuat file program HelloProcedural.java, HelloOOP.java, dan HelloFunctional.java.
+3.Menulis kode sesuai paradigma yang diminta.
+4.Melakukan eksekusi program
+5.Mengecek hasil eksekusi di terminal.
+6.Membuat commit ke repository GitHub dengan pesan commit "week1-setup-hello-pos"
 ---
 
 ## Kode Program
-(Tuliskan kode utama yang dibuat, contoh:  
+1.// HelloProcedural
+public class HelloProcedural {
+    public static void main(String[] args) {
+        String nim = "240202899";
+        String name = "Fiki Anto";
 
-```java
-// Contoh
-Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
-System.out.println(p1.getNama());
-```
-)
----
+        System.out.println("Hello World, I am " + name + " - " + nim);
+    }
+}
 
+
+2.
+// HelloOOP
+class Student {
+    String nim;
+    String name;
+    Student(String nim, String name) {
+        this.nim = nim;
+        this.name = name;
+    }
+
+    void introduce() {
+        System.out.println("Hello World, I am " + name + " - " + nim);
+    }
+}
+
+public class HelloOOP {
+    public static void main(String[] args) {
+        Student s = new Student("240202899", "Fiki Anto");
+        s.introduce();
+    }
+}
+
+
+3.// HelloFunctional
+import java.util.function.BiConsumer;
+
+public class HelloFunctional {
+    public static void main(String[] args) {
+        BiConsumer<String, String> introduce =
+            (nim, name) -> System.out.println("Hello World, I am " + name + " - " + nim);
+
+        introduce.accept("240202899", "Fiki Anto");
+    }
+}
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
 ![Screenshot hasil](screenshots/hasil.png)
@@ -49,25 +83,41 @@ System.out.println(p1.getNama());
 ---
 
 ## Analisis
-(
-- Jelaskan bagaimana kode berjalan.  
-- Apa perbedaan pendekatan minggu ini dibanding minggu sebelumnya.  
-- Kendala yang dihadapi dan cara mengatasinya.  
-)
----
+1.Cara kerja kode:
+Pada paradigma prosedural, kode hanya berupa urutan instruksi tanpa class.
+Pada paradigma OOP, kode dibungkus dalam class Student sehingga data (nim, name) dan perilaku (introduce()) disatukan.
+Pada paradigma fungsional, digunakan lambda expression dan functional interface (BiConsumer) untuk mencetak pesan.
+
+2.Perbedaan dengan minggu sebelumnya:
+Minggu ini mulai diperkenalkan perbedaan paradigma, tidak hanya menulis instruksi sederhana.
+Pendekatan OOP membuat program lebih terstruktur, sedangkan functional membuat kode lebih ringkas.
+
+3.Kendala:
+Awalnya bingung membedakan kapan harus pakai class vs lambda.
+Solusi: membaca dokumentasi Java tentang java.util.function dan contoh penggunaan OOP sederhana.
 
 ## Kesimpulan
-(Tuliskan kesimpulan dari praktikum minggu ini.  
-Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur dan mudah dikembangkan.*)
+1.Paradigma prosedural cocok untuk program sederhana dan cepat dibuat.
+2.Paradigma OOP memberikan struktur yang jelas dengan memanfaatkan class dan object, sehingga 3.program lebih mudah dikembangkan.
+4.Paradigma fungsional membuat kode lebih ringkas dan mengurangi boilerplate dengan memanfaatkan lambda expression.
+5.Dengan memahami ketiga paradigma, mahasiswa dapat memilih pendekatan yang tepat sesuai kebutuhan aplikasi.
 
----
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
+(1. [Apakah OOP selalu lebih baik dari prosedural?]  
    **Jawaban:** …  
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
+2. [ Kapan functional programming lebih cocok digunakandibanding OOP atau prosedural? ]  
    **Jawaban:** …  
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
+3. [Bagaimana paradigma (prosedural, OOP, fungsional)
+memengaruhi maintainability dan scalability aplikasi?]  
    **Jawaban:** …  )
+
+4.[ Mengapa OOP lebih cocok untuk mengembangkan
+aplikasi POS dibanding prosedural?]
+  **Jawaban**
+
+5.[Bagaimana paradigma fungsional dapat membantu
+mengurangi kode berulang (boilerplate code)? ]
+  **Jawaban**
