@@ -9,10 +9,10 @@ Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 ---
 
 ## Tujuan
--Mahasiswa mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.
--Mahasiswa mampu membandingkan kelebihan dan keterbatasan tiap paradigma.
--Mahasiswa mampu memberikan contoh program sederhana untuk masing-masing paradigma.
--Mahasiswa aktif dalam diskusi kelas (bertanya, menjawab, memberi opini).
+[-Mahasiswa mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.]
+[-Mahasiswa mampu membandingkan kelebihan dan keterbatasan tiap paradigma.]
+[-Mahasiswa mampu memberikan contoh program sederhana untuk masing-masing paradigma.]
+[-Mahasiswa aktif dalam diskusi kelas (bertanya, menjawab, memberi opini).]
 ----
 
 ## Dasar Teori
