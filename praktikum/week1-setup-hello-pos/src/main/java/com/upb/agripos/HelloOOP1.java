@@ -1,6 +1,6 @@
 package main.java.com.upb.agripos;
 
-    
+
 class Student {
     String nim;
     String name;
@@ -14,7 +14,7 @@ class Student {
     }
 }
 
-public class HelloOOP {
+public class HelloOOP1 {
     public static void main(String[] args) {
         Student s = new Student("240202899", "Fiki Anto");
         s.introduce();

@@ -1,0 +1,56 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "HelloOOP1",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloOOP1",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
+            "name": "HelloProcedural1",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloProcedural1",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
+            "name": "HelloFunctional1",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloFunctional1",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "HelloFunctional",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloFunctional",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
+            "name": "HelloOOP",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloOOP",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
+            "name": "HelloProcedural",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.HelloProcedural",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        }
+    ]
+}

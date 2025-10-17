@@ -2,13 +2,18 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
+ HEAD
 - Nama  : [FikiAnto]
+
+- Nama  : [Fiki Anto]
+ 86fa75e (Update terbaru)
 - NIM   : [240202899]
 - Kelas : [3IKRB]
 
 ---
 
 ## Tujuan
+ HEAD
 ([-Mahasiswa mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.]
 [-Mahasiswa mampu membandingkan kelebihan dan keterbatasan tiap paradigma.]
 [-Mahasiswa mampu memberikan contoh program sederhana untuk masing-masing paradigma.]
@@ -19,16 +24,40 @@ Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 1.Prosedural: program dibangun sebagai rangkaian perintah (fungsi/prosedur).
 2.OOP (Object-Oriented Programming): program dibangun dari objek yang memiliki data (atribut) dan perilaku (method).
 3.Fungsional: program dipandang sebagai pemetaan fungsi matematika, lebih menekankan ekspresi dan transformasi data.
+=======
+(Tujuan praktikum minggu ini.  
+1.Mahasiswa mampu mendefinisikan paradigma prosedural, OOP, dan fungsional.
+2.Mahasiswa mampu membandingkan kelebihan dan keterbatasan tiap paradigma.
+3.Mahasiswa mampu memberikan contoh program sederhana untuk masing-masing paradigma.
+4.Mahasiswa aktif dalam diskusi kelas (bertanya, menjawab, memberi opini.*)
+
+---
+
+## Dasar Teori
+(Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
+Contoh:  
+1. Prosedural: program dibangun sebagai rangkaian perintah (fungsi/prosedur).  
+2. OOP (Object-Oriented Programming): program dibangun dari objek yang memiliki data (atribut) dan perilaku (method).  
+3. Fungsional: program dipandang sebagai pemetaan fungsi matematika, lebih menekankan ekspresi dan transformasi data.)
+>>>>>>> 86fa75e (Update terbaru)
 
 ---
 
 ## Langkah Praktikum
+ HEAD
 1.Menginstall JDK versi terbaru dan cek instalasinya menggunakan perintah java -version
 2.Membuat file program HelloProcedural.java, HelloOOP.java, dan HelloFunctional.java.
 3.Menulis kode sesuai paradigma yang diminta.
 4.Melakukan eksekusi program
 5.Mengecek hasil eksekusi di terminal.
 6.Membuat commit ke repository GitHub dengan pesan commit "week1-setup-hello-pos"
+
+( Langkah-langkah dalam prakrikum,
+1. 1.Menginstall JDK versi terbaru dan cek instalasinya menggunakan perintah java -version.  
+2. 2.Membuat file program HelloProcedural.java, HelloOOP.java, dan HelloFunctional.java.  
+3. 3.Menulis kode sesuai paradigma yang diminta. 4.Melakukan eksekusi program 5.Mengecek hasil eksekusi di terminal. 6.Membuat commit ke repository GitHub dengan pesan commit "week1-setup-hello-pos")
+
+ 86fa75e (Update terbaru)
 ---
 
 ## Kode Program
@@ -38,9 +67,20 @@ public class HelloProcedural {
         String nim = "240202899";
         String name = "Fiki Anto";
 
+ HEAD
         System.out.println("Hello World, I am " + name + " - " + nim);
     }
 }
+
+```java
+
+// Contoh
+Produk p1 = new Produk("BNH-001", "Benih Padi", 25000, 100);
+System.out.println(p1.getNama());
+```
+)
+---
+ 86fa75e (Update terbaru)
 
 
 2.
@@ -108,6 +148,7 @@ Solusi: membaca dokumentasi Java tentang java.util.function dan contoh penggunaa
 (1. [Apakah OOP selalu lebih baik dari prosedural?]  
    **Jawaban:** …  
 
+ HEAD
 2. [ Kapan functional programming lebih cocok digunakandibanding OOP atau prosedural? ]  
    **Jawaban:** …  
 
@@ -122,3 +163,17 @@ aplikasi POS dibanding prosedural?]
 5.[Bagaimana paradigma fungsional dapat membantu
 mengurangi kode berulang (boilerplate code)? ]
   **Jawaban**
+
+2. [Kapan functional programming lebih cocok digunakandibanding OOP atau prosedural?]  
+   **Jawaban:** …  
+
+3. [Bagaimana paradigma (prosedural, OOP, fungsional) memengaruhi maintainability dan scalability aplikasi?]  
+   **Jawaban:** …  
+
+4. [Mengapa OOP lebih cocok untuk mengembangkan aplikasi POS dibanding prosedural?]
+   **Jawaban:**
+
+5. [Bagaimana paradigma fungsional dapat membantu mengurangi kode berulang (boilerplate code)?]
+   **Jawaban:** 
+
+ 86fa75e (Update terbaru)
