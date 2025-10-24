@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "MainProduk",
+            "request": "launch",
+            "mainClass": "main.java.com.upb.agripos.MainProduk",
+            "projectName": "oop-202501-240202899_e3aea31d"
+        },
+        {
+            "type": "java",
             "name": "HelloOOP1",
             "request": "launch",
             "mainClass": "main.java.com.upb.agripos.HelloOOP1",

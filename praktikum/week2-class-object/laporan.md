@@ -2,30 +2,34 @@
 Topik: [Tuliskan judul topik, misalnya "Class dan Object"]
 
 ## Identitas
-- Nama  : [Nama Mahasiswa]
-- NIM   : [NIM Mahasiswa]
-- Kelas : [Kelas]
+- Nama  : [FIKIANTO]
+- NIM   : [240202899]
+- Kelas : [3IKRB]
 
 ---
 
 ## Tujuan
 (Tuliskan tujuan praktikum minggu ini.  
-Contoh: *Mahasiswa memahami konsep class dan object serta dapat membuat class Produk dengan enkapsulasi.*)
+Mahasiswa mampu menjelaskan konsep class, object, atribut, dan method dalam OOP.
+Mahasiswa mampu menerapkan access modifier dan enkapsulasi dalam pembuatan class.
+Mahasiswa mampu mengimplementasikan class Produk pertanian dengan atribut dan method yang sesuai.
+Mahasiswa mampu mendemonstrasikan instansiasi object serta menampilkan data produk pertanian di console.
+Mahasiswa mampu menyusun laporan praktikum dengan bukti kode, hasil eksekusi, dan analisis sederhana.
+)
 
 ---
 
 ## Dasar Teori
 (Tuliskan ringkasan teori singkat (3–5 poin) yang mendasari praktikum.  
-Contoh:  
-1. Class adalah blueprint dari objek.  
-2. Object adalah instansiasi dari class.  
-3. Enkapsulasi digunakan untuk menyembunyikan data.)
+Class adalah blueprint atau cetak biru dari sebuah objek. Objek merupakan instansiasi dari class yang berisi atribut (data) dan method (perilaku). Dalam OOP, enkapsulasi dilakukan dengan menyembunyikan data menggunakan access modifier (public, private, protected) serta menyediakan akses melalui getter dan setter.
+
+Dalam konteks Agri-POS, produk pertanian seperti benih, pupuk, dan alat pertanian dapat direpresentasikan sebagai objek yang memiliki atribut nama, harga, dan stok. Dengan menggunakan class, setiap produk dapat dibuat, dikelola, dan dimanipulasi secara lebih terstruktur.)
 
 ---
 
 ## Langkah Praktikum
 (Tuliskan Langkah-langkah dalam prakrikum, contoh:
-1. Langkah-langkah yang dilakukan (setup, coding, run).  
+1. yang dilakukan (setup, coding, run).  
 2. File/kode yang dibuat.  
 3. Commit message yang digunakan.)
 
@@ -44,7 +48,7 @@ System.out.println(p1.getNama());
 
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/hasil.png)
+![Screenshot hasil](screenshots/week.png)
 )
 ---
 
@@ -63,11 +67,19 @@ Contoh: *Dengan menggunakan class dan object, program menjadi lebih terstruktur 
 ---
 
 ## Quiz
-(1. [Tuliskan kembali pertanyaan 1 dari panduan]  
-   **Jawaban:** …  
+(1. [Mengapa atribut sebaiknya dideklarasikan sebagai private dalam class?]  
+   **Jawaban:** 
+   1.Kontrol akses ke data
+Jika atribut private, hanya bisa diakses melalui method kelas tersebut, biasanya getter dan setter.
+2.Menjaga konsistensi data
+3.…  
 
-2. [Tuliskan kembali pertanyaan 2 dari panduan]  
-   **Jawaban:** …  
+2. [Apa fungsi getter dan setter dalam enkapsulasi?]  
+   **Jawaban:**
+   Getter digunakan untuk mengambil nilai atribut, sedangkan setter digunakan untuk mengubah nilai atribut dengan kontrol yang aman.
 
-3. [Tuliskan kembali pertanyaan 3 dari panduan]  
-   **Jawaban:** …  )
+ …  
+
+3. [Bagaimana cara class Produk mendukung pengembangan aplikasi POS yang lebih kompleks?]  
+   **Jawaban:** 
+   Dengan adanya class Produk, sistem POS dapat dengan mudah menambah fitur seperti transaksi penjualan, pengelolaan stok otomatis, serta integrasi dengan database dan antarmuka pengguna.…  )
