@@ -119,7 +119,7 @@ public class HelloFunctional {
 }
 ## Hasil Eksekusi
 (Sertakan screenshot hasil eksekusi program.  
-![Screenshot hasil](screenshots/fungctional.png)
+![Screenshot hasil](screenshots/functional1.png)
 ![Screenshot hasil](screenshots/oop.png)
 ![Screenshot hasil](screenshots/procedural.png)
 )
