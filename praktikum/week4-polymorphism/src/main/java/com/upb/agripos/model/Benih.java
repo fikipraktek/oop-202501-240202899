@@ -1,21 +1,16 @@
 package main.java.com.upb.agripos.model;
 
 public class Benih extends Produk {
+    private String varietas;
 
-    private String jenis;
-
-    public Benih(String kode, String nama, int harga, int stok, String jenis) {
-        super(kode, nama, harga, stok); // WAJIB cocok dengan Produk
-        this.jenis = jenis;
+    public Benih(String kode, String nama, double harga, int stok, String varietas) {
+        super(kode, nama, harga, stok);
+        this.varietas = varietas;
     }
 
     @Override
-    public void info() {
-        System.out.println(
-            "Benih: " + nama +
-            " | Jenis: " + jenis +
-            " | Harga: " + harga +
-            " | Stok: " + stok
-        );
+    public String getInfo() {
+        return "Benih: " + super.getInfo() + ", Varietas: " + varietas;
     }
+
 }

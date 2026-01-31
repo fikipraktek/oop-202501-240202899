@@ -2,7 +2,7 @@ package com.upb.agripos;
 
 public class MainCart {
     public static void main(String[] args) {
-
+        System.out.println("Hello, I am FIKI ANTO-240202899 (Week7)");
         ShoppingCart cart = new ShoppingCart();
 
         Product p1 = new Product("P01", "Pupuk", 5000, 10);
