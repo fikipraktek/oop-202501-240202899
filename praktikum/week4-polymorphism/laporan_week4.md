@@ -2,8 +2,8 @@
 Topik: Polymorphism (Info Produk)
 
 ## Identitas
-- Nama  : Wahyu Tri Cahya
-- NIM   : 240202889
+- Nama  : FIKI ANTO
+- NIM   : 240202899
 - Kelas : 3IKRB
 
 ---
